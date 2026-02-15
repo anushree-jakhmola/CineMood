@@ -10,7 +10,7 @@ The objective of this project is to build a **real-world recommendation pipeline
 ### Landing Experience
 
 <p align="center">
-  <img src="assets/Image (1).png" width="900"/>
+  <img src="assets/Image (1).jpeg" width="900"/>
 </p>
 
 ---
@@ -18,7 +18,7 @@ The objective of this project is to build a **real-world recommendation pipeline
 ### Authentication Interface
 
 <p align="center">
-  <img src="assets/Image.png" width="700"/>
+  <img src="assets/Image.jpeg" width="700"/>
 </p>
 
 ---
@@ -26,7 +26,7 @@ The objective of this project is to build a **real-world recommendation pipeline
 ### Recommendation View
 
 <p align="center">
-  <img src="assets/Image (2).png" width="900"/>
+  <img src="assets/Image (2).jpeg" width="900"/>
 </p>
 
 ---
@@ -34,7 +34,7 @@ The objective of this project is to build a **real-world recommendation pipeline
 ### Intent Understanding Output
 
 <p align="center">
-  <img src="assets/Image (3).png" width="900"/>
+  <img src="assets/Image (3).jpeg" width="900"/>
 </p>
 
 ---
