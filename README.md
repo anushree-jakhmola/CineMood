@@ -5,6 +5,40 @@ The objective of this project is to build a **real-world recommendation pipeline
 
 ---
 
+## User Interface Preview
+
+### Landing Experience
+
+<p align="center">
+  <img src="assets/Image (1).png" width="900"/>
+</p>
+
+---
+
+### Authentication Interface
+
+<p align="center">
+  <img src="assets/Image.png" width="700"/>
+</p>
+
+---
+
+### Recommendation View
+
+<p align="center">
+  <img src="assets/Image (2).png" width="900"/>
+</p>
+
+---
+
+### Intent Understanding Output
+
+<p align="center">
+  <img src="assets/Image (3).png" width="900"/>
+</p>
+
+---
+
 ## Motivation
 
 Traditional recommendation systems depend on:
@@ -34,7 +68,7 @@ The project is implemented using the following technologies:
 - **PyTorch / Transformers** – Lightweight local inference model  
 - **scikit-learn** – Supporting ML utilities  
 - **Pandas & NumPy** – Data processing and analysis  
-- **TMDb Dataset (1990-2025)** – Real-world movie metadata (~317K movies)  
+- **TMDb Dataset (1990-2025)** – Real-world movie metadata (~8,000 movies)  
 - **HTML, CSS, JavaScript** – Frontend user interface  
 - **Chart.js** – Visualization components  
 - **FastAPI (planned)** – Production API layer  
@@ -55,7 +89,7 @@ These instructions help you set up the project locally for development and testi
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/<anushree-jakhmola>/CineMood.git
+git clone https://github.com/anushree-jakhmola/CineMood.git
 cd CineMood
 ```
 
@@ -147,12 +181,6 @@ Further quantitative evaluation and UI-level testing are in progress.
 - Intent dataset generation strategy  
 - Local NLP model prototype  
 - Recommendation pipeline design  
-
-### In Progress
-
-- Final intent model training  
-- Frontend–backend integration  
-- API deployment layer  
 
 ### Future Scope
 
