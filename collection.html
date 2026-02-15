@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Collection — CineMood</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Cormorant:ital,wght@1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="collection.css">
+</head>
+<body>
+
+    <!-- Logo (auth style) -->
+    <a href="index.html" class="logo-link" aria-label="Go to CineMood home"><img src="cinemood-logo.png" alt="CineMood" class="logo"></a>
+
+    <!-- Back Button (floating) -->
+    <button class="back-btn" id="back-btn">← Back to Home</button>
+
+    <!-- Main Content -->
+    <div class="content">
+        
+        <!-- Hero Section with Search -->
+        <div class="hero-section">
+            <h1 class="main-title">Our Collection</h1>
+            
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <input 
+                    type="text" 
+                    id="search-input" 
+                    placeholder="Search movies by title..." 
+                    class="search-input"
+                >
+                <button class="search-btn" id="search-btn">🔍</button>
+            </div>
+            
+            <!-- Stats -->
+            <p class="stats-text" id="stats-text">Loading movies...</p>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters">
+            <button class="filter-btn active" data-genre="all">All Movies</button>
+            <button class="filter-btn" data-genre="action">Action</button>
+            <button class="filter-btn" data-genre="adventure">Adventure</button>
+            <button class="filter-btn" data-genre="comedy">Comedy</button>
+            <button class="filter-btn" data-genre="drama">Drama</button>
+            <button class="filter-btn" data-genre="horror">Horror</button>
+            <button class="filter-btn" data-genre="romance">Romance</button>
+            <button class="filter-btn" data-genre="sci-fi">Sci-Fi</button>
+        </div>
+
+        <!-- Movie Grid -->
+        <div class="movie-grid" id="movie-grid">
+            <!-- Movies will be injected here -->
+        </div>
+
+        <!-- Load More Button -->
+        <div class="load-more-container">
+            <button class="load-more-btn" id="load-more-btn" style="display: none;">Load More</button>
+        </div>
+
+    </div>
+
+    <!-- Movie Popup Modal (same as results page) -->
+    <div class="popup-backdrop" id="popup-backdrop"></div>
+    <div class="movie-popup" id="movie-popup">
+        <button class="popup-close" id="popup-close">×</button>
+        <div class="popup-content">
+            <div class="popup-poster">
+                <img src="" alt="" id="popup-poster-img">
+            </div>
+            <div class="popup-details">
+                <h2 class="popup-title" id="popup-title"></h2>
+                <div class="popup-meta">
+                    <div class="popup-rating">
+                        <span class="star-icon">★</span>
+                        <span id="popup-rating"></span>
+                    </div>
+                    <span id="popup-year"></span>
+                </div>
+                <p class="popup-overview" id="popup-overview"></p>
+                <div class="popup-platforms">
+                    <h3>Where to Watch</h3>
+                    <div class="popup-platforms-list" id="popup-platforms-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="collection.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>CineMood</title>
+
+    <!-- Premium serif + clean sans pairing -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Cormorant:ital,wght@1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- BACKGROUND POSTER ENGINE -->
+    <div class="poster-engine">
+        <div class="poster-row" id="row-extra-top"></div> <!-- NEW -->
+        <div class="poster-row" id="row-top"></div>
+        <div class="poster-row" id="row-mid"></div>
+        <div class="poster-row" id="row-bot"></div>
+        <div class="poster-row" id="row-extra-bot"></div> <!-- NEW -->
+    </div>
+
+    <!-- CINEMATIC TEXT LAYER -->
+    <section class="hero-layer">
+        <h1 id="hero-text">
+            Too many movies.<br />
+            Nothing feels right.
+        </h1>
+
+        <button class="enter-btn">
+            Enter Now
+        </button>
+    </section>
+    <canvas id="depth-canvas"></canvas>
+    <script src="script.js"></script>
+</body>
+
+</html>

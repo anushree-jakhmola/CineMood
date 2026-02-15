@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — CineMood</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Cormorant:ital,wght@1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+
+     <!-- Background Movie Grid -->
+     <div class="poster-grid" id="poster-grid"></div>
+
+     <!-- Logo -->
+     <a href="index.html" class="logo-link" aria-label="Go to CineMood home"><img src="cinemood-logo.png" alt="CineMood" class="logo"></a>
+
+    <!-- Back to Home Button -->
+    <button class="back-btn" onclick="window.location.href='home.html'">← Back to Home</button>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1 class="hero-title">About CineMood</h1>
+            <p class="hero-subtitle">Finding the perfect movie for <i>your</i> mood, powered by AI.</p>
+        </section>
+
+        <!-- The Problem -->
+        <section class="section">
+            <div class="card">
+                <h2 class="section-title">The Problem</h2>
+                <p class="section-text">
+                    Ever spent 30 minutes scrolling through Netflix, only to rewatch The Office again? 
+                    We've all been there. With thousands of movies available, choice paralysis is real. 
+                    You know you want to watch <i>something</i>—but what matches how you're feeling <i>right now</i>?
+                </p>
+            </div>
+        </section>
+
+        <!-- Our Solution -->
+        <section class="section">
+            <div class="card">
+                <h2 class="section-title">Our Solution</h2>
+                <p class="section-text">
+                    CineMood solves this by understanding your mood. Just tell us how you feel—
+                    "I need a good laugh," "something thrilling," or "I want to cry"—and our AI 
+                    instantly predicts the perfect genre for you. No endless scrolling. No regrets.
+                </p>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="section">
+            <h2 class="section-title centered">How It Works</h2>
+            <div class="steps">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Describe Your Mood</h3>
+                    <p class="step-text">Type how you're feeling in plain English. No filters, no checkboxes.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">AI Predicts Genre</h3>
+                    <p class="step-text">Our DistilBERT model analyzes your text and predicts the perfect genre.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Discover Movies</h3>
+                    <p class="step-text">Get curated recommendations that match your vibe. Click, watch, enjoy.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technology -->
+        <section class="section">
+            <div class="card tech-card">
+                <h2 class="section-title">Powered by AI</h2>
+                <p class="section-text">
+                    CineMood uses a fine-tuned <strong>DistilBERT</strong> transformer model—
+                    a lightweight, production-ready AI trained on mood-to-genre mappings. 
+                    It understands context, emotion, and intent from your words, delivering 
+                    highly accurate genre predictions in milliseconds.
+                </p>
+                <div class="tech-stats">
+                    <div class="stat">
+                        <div class="stat-number">7</div>
+                        <div class="stat-label">Genres</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">~90%</div>
+                        <div class="stat-label">Accuracy</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">&lt;1s</div>
+                        <div class="stat-label">Response Time</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="section cta-section">
+            <h2 class="cta-title">Ready to find your next favorite movie?</h2>
+            <button class="cta-btn" onclick="window.location.href='home.html'">Try CineMood Now</button>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Built with ❤️ for movie lovers everywhere.</p>
+            <p class="footer-small">CineMood © 2026</p>
+        </footer>
+
+    </div>
+
+    <script src="about.js"></script>
+</body>
+</html>

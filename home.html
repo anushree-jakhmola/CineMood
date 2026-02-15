@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMood — Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Cormorant:ital,wght@1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <!-- Background Movie Grid (same as auth page) -->
+    <div class="poster-grid" id="poster-grid"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="index.html" class="logo-link" aria-label="Go to CineMood home"><img src="cinemood-logo.png" alt="CineMood" class="nav-logo"></a>
+            <a href="collection.html" class="collection-link">Our Collection</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <!-- Welcome Text -->
+        <p class="welcome-text">Welcome, <span id="username">User</span></p>
+        
+        <!-- Main Heading -->
+        <h1 class="hero-heading">What are <i>you</i> in the mood to watch?</h1>
+        
+        <!-- Subtext -->
+        <p class="hero-subtext">
+            Describe the type of movie or mood you're looking for, and we'll find the perfect match for you.
+        </p>
+        
+        <!-- Search Box -->
+        <div class="mood-search">
+            <input 
+                type="text" 
+                id="mood-input" 
+                placeholder="I'm in the mood for..." 
+                class="mood-input"
+            >
+            <button class="find-btn">Find My Movie</button>
+        </div>
+    </section>
+    <!-- Our Collection Link (bottom left) -->
+    <a href="collection.html" class="collection-bottom-link">Our Collection</a>
+    <!-- About Link (bottom right) -->
+    <a href="about.html" class="about-link">About</a>
+    <script src="home.js"></script>
+</body>
+</html>
